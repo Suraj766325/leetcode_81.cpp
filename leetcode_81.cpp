@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     vector<int> v={8,10,2,3,5,7};
-    int n=v.size(),l=0,r=n-1,mid,idx=-1,target=0;
+    int n=v.size(),l=0,r=n-1,mid,idx=-1,target=0,check=1;
     while(l<=r)
         {
             mid=l+(r-l)/2;
